@@ -4,6 +4,29 @@ ms.date: 12/12/2024
 title: Installing PowerShell on macOS
 ---
 
+# A short version:
+The easiest way to install PowerShell for macOS, which is via Homebrew—the preferred package manager for macOS. Homebrew provides the ability to install PowerShell via a terminal without a single click of our mouse.
+1. Open Terminal—macOS’s default Terminal application.
+2. Type ‘which brew’ in Terminal
+* If you see a path, Homebrew is installed. Go to step 5.
+* else, head over to Homebrew’s website (https://brew.sh) for instructions on how to install it. (see step 3)
+3. Copy and paste the following command in Terminal to install Homebrew
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+4. Check that you have Homebrew installed by step 2
+5. Copy and paste the following cmd in Terminal to install PowerShell
+```sh
+brew install powershell/tap/powershell
+```
+6. Check installation by 
+```sh
+pwsh
+```
+
+
+
+# A long version:
 # Installing PowerShell on macOS
 
 PowerShell 7 or higher requires macOS 11 and higher. All packages are available on our GitHub
