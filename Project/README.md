@@ -9,14 +9,22 @@ Click here:
 
 -->
 # CSCI-185-A PowerShell Projects
+This project requires you to understand a problem from one chapter, analyze the provided solutions, and implement an alternative solution approach.
 
 This code repository is adopted from [Tiny-PowerShell-Projects](https://github.com/dfinke/Tiny-PowerShell-Projects).
 
+## Groups
+A group can have 1-2 students.
+Individual students can choose a problem from Chapters 2-11.
+Groups of Two can choose a problem from Chapters 12-22.
 ## Deliverables 
-TBD
+Submit a team-written report to BB, which includes
+1. Problem statement and analysis
+2. Review of provided solutions
+3. Implementation of your alternative solution
+4. Comparison between your solution and provided solutions  
 
-## Outlines for Project Reports
-TBD 
+Due @ 1-May 2025
 
 ## Project Discussion and Contribution
 
