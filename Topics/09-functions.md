@@ -860,10 +860,11 @@ input, error handling, and comment based help.
 
 1. How do you obtain a list of approved verbs in PowerShell?
 1. How do you turn a PowerShell function into an advanced function?
-1. When should **WhatIf** and **Confirm** parameters be added to your PowerShell functions?
-1. How do you turn a non-terminating error into a terminating one?
-1. Why should you add comment based help to your functions?
-
+<!--
+2. When should **WhatIf** and **Confirm** parameters be added to your PowerShell functions?
+3. How do you turn a non-terminating error into a terminating one?
+4. Why should you add comment based help to your functions?
+-->
 ## Recommended Reading
 
 - [about_Functions][about_Functions]
