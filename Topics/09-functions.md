@@ -404,7 +404,7 @@ OutVariable
 OutBuffer
 PipelineVariable
 ```
-
+<!--
 ## SupportsShouldProcess
 
 `SupportsShouldProcess` adds **WhatIf** and **Confirm** parameters. These are only needed for
@@ -780,6 +780,7 @@ using something like .NET directly from within your PowerShell function, you can
 `$ErrorActionPreference` variable, but if you do change it, change it back immediately after trying
 the command.
 
+
 ## Comment-Based Help
 
 It's considered to be a best practice to add comment based help to your functions so the people
@@ -845,6 +846,8 @@ who is just getting started. Often times if I can't remember the syntax for some
 second copy of the ISE on a separate monitor and view the "Cmdlet (advanced function) - Complete"
 snippet while typing in the code for my function. Snippets can be accessed in the PowerShell ISE
 using the <kbd>Ctrl</kbd>+<kbd>J</kbd> key combination.
+-->
+
 
 ## Summary
 
