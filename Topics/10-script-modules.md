@@ -235,7 +235,7 @@ The module autoloading feature was introduced in PowerShell version 3. To take a
 autoloading, a script module needs to be saved in a folder with the same base name as the `.PSM1` file
 and in a location specified in `$env:PSModulePath`.
 
-```powershell
+```powershell 
 $env:PSModulePath
 ```
 
@@ -307,7 +307,7 @@ New-ModuleManifest -Path $env:ProgramFiles\WindowsPowerShell\Modules\MyScriptMod
 If any of this information is missed during the initial creation of the module manifest, it can be
 added or updated later using `Update-ModuleManifest`. Don't recreate the manifest using
 `New-ModuleManifest` once it's already created because the GUID will change.
--->
+
 ## Defining Public and Private Functions
 
 You may have helper functions that you may want to be private and only accessible by other functions
@@ -352,7 +352,7 @@ FunctionsToExport = 'Get-MrPSVersion'
 
 It's not necessary to use both `Export-ModuleMember` in the `.PSM1` file and the
 **FunctionsToExport** section of the module manifest. One or the other is sufficient.
-
+-->
 ## Summary
 
 In this chapter you've learned how to turn your functions into a script module in PowerShell. You've
@@ -363,10 +363,11 @@ manifest for your script module.
 
 1. How do you create a script module in PowerShell?
 1. Why is it important for your functions to use an approved verb?
-1. How do you create a module manifest in PowerShell?
-1. What are the two options for exporting only certain functions from your module?
-1. What is required for your modules to load automatically when a command is called?
-
+<!--
+2. How do you create a module manifest in PowerShell?
+3. What are the two options for exporting only certain functions from your module?
+4. What is required for your modules to load automatically when a command is called?
+-->
 ## Recommended Reading
 
 - [How to Create PowerShell Script Modules and Module Manifests][How to Create PowerShell Script Modules and Module Manifests]
