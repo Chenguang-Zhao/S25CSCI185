@@ -21,10 +21,46 @@ Groups of Two can choose a problem from Chapters 12-22.
 Submit a team-written report to BB, which includes
 1. Problem statement and analysis
 2. Review of provided solutions
-3. Implementation of your alternative solution
-4. Comparison between your solution and provided solutions  
+3. Implementation of your alternative solution and testing.
+4. Screenshot the differences between the provided solution and your solution using https://text-compare.com/. Change justification.
 
-Due @ 1-May 2025
+Due @ 5-May 2025
+
+## Rubric of Deliverable
+## Deliverable Requirements
+
+### 1. Problem Statement and Analysis (20 points)
+| Criteria | Excellent (18-20) | Satisfactory (15-18) | Needs Improvement (0-14) |
+|----------|-------------------|----------------------|--------------------------|
+| Problem clarity | Problem is described with exceptional clarity, including inputs, outputs, constraints, and edge cases | Problem is adequately described but may be missing some details | Problem description is unclear or significantly incomplete |
+| Technical Analysis | Thorough explanation of the technical context of PowerShell and relevance of the problem | Basic explanation of technical context provided | Little or no explanation of technical context |
+
+
+### 2. Review of Provided Solutions (20 points)
+| Criteria | Excellent (18-20) | Satisfactory (15-18) | Needs Improvement (0-14) |
+|----------|-------------------|----------------------|--------------------------|
+| PowerShell specifics | Detailed discussion of PowerShell-specific features utilized in solutions and how the provided code works | Basic discussion of PowerShell features and code functionality | Limited or no discussion of PowerShell features and code functionality |
+
+### 3. Implementation of Alternative Solution (30 points)
+| Criteria | Excellent (24-30) | Satisfactory (18-23) | Needs Improvement (0-17) |
+|----------|-------------------|----------------------|--------------------------|
+| Code quality | Code is well-structured, efficient, and follows PowerShell best practices | Code works but has minor structural or efficiency issues | Code has significant issues or doesn't work properly |
+| Test-driven development | Implementation passes all the original tests provided in the repository | Implementation passes most tests with minor issues | Implementation fails multiple tests |
+
+### 4. Solution Comparison using text-compare.com (20 points)
+| Criteria | Excellent (16-20) | Satisfactory (12-15) | Needs Improvement (0-11) |
+|----------|-------------------|----------------------|--------------------------|
+| Screenshot quality | Clear, properly formatted screenshots showing text-compare.com differences | Readable screenshots showing differences | Unclear or incomplete screenshots |
+| Change justification | Thorough justification for each significant change made in the alternative solution | Basic justification for changes | Limited or missing justification for changes |
+| Improvement discussion | Insightful discussion of how differences represent improvements | Some discussion of improvements | Limited or no discussion of improvements |
+
+### Overall Presentation Quality (10 points)
+| Criteria | Excellent (8-10) | Satisfactory (6-7) | Needs Improvement (0-5) |
+|----------|-------------------|----------------------|--------------------------|
+| Visual clarity | Report uses consistent formatting, appropriate headings, and clear visual organization | Report is visually organized but has minor inconsistencies | Report lacks visual structure and organization |
+| Content organization | Content flows logically with smooth transitions between sections | Content generally flows well with some awkward transitions | Content organization inhibits understanding with abrupt or missing transitions |
+| Effective use of visuals | Screenshots, code samples, and other visual elements are well-integrated and enhance understanding | Visual elements are present but could be better integrated | Few or poorly implemented visual elements that don't enhance understanding |
+
 
 ## Project Discussion and Contribution
 
