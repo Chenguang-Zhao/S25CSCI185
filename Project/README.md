@@ -27,7 +27,6 @@ Submit a team-written report to BB, which includes
 Due @ 5-May 2025
 
 ## Rubric of Deliverable
-## Deliverable Requirements
 
 ### 1. Problem Statement and Analysis (20 points)
 | Criteria | Excellent (18-20) | Satisfactory (15-18) | Needs Improvement (0-14) |
